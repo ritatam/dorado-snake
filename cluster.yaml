@@ -1,0 +1,30 @@
+__default__:
+    mem: 20G
+    queue: normal
+    time: "24:00:00"
+    ncpus: 8
+    ngpus: 0
+    project: xf3
+    name: "{rule}" 
+
+simplex_basecall:
+    mem: 150G
+    queue: gpuvolta
+    ngpus: 2
+    ncpus: 24
+    time: "48:00:00"
+
+stereo_basecall_from_main_pairing:
+    mem: 150G
+    queue: gpuvolta
+    ngpus: 2
+    ncpus: 24
+    time: "48:00:00"
+
+stereo_basecall_from_additional_pairing:
+    mem: 150G
+    queue: gpuvolta
+    ngpus: 2
+    ncpus: 24
+    time: "48:00:00"
+    
