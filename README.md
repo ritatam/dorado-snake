@@ -11,9 +11,9 @@ Setup:
 	- `dorado download --model dna_r10.4.1_e8.2_260bps_sup@v4.1.0`
 	- `dorado download --model dna_r10.4.1_e8.2_4khz_stereo@v1.1`
 - have an input directory containing raw [pod5](https://github.com/nanoporetech/pod5-file-format) files converted from fast5. Example command:
-	`mkdir pod5`
-	`cd fast5/  # contains all raw fast5 files` 
-	`for file in *.fast5; do pod5 convert fast5 ${file} ../pod5/${file::-6}.pod5; done`
+	- `mkdir pod5`
+	- `cd fast5/  # contains all raw fast5 files` 
+	- `for file in *.fast5; do pod5 convert fast5 ${file} ../pod5/${file::-6}.pod5; done`
 
 Before using this script:
 - change settings in `config.yaml`
