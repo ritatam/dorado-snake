@@ -22,3 +22,5 @@ Before using this script:
 
 Running this script:
 `qsub submit_on_node.sh`
+
+Any questions please contact: Rita.Tam@anu.edu.au
