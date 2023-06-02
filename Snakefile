@@ -6,9 +6,6 @@ POD5 = glob(f"{config['pod5']}/*.pod5")
 
 rule all:
     input:
-        f"{OUTPUT_DIR}/unmapped_reads_with_moves.sam",
-        f"{OUTPUT_DIR}/unmapped_reads_with_moves.bam",
-        f"{OUTPUT_DIR}/unmapped_reads_with_moves.bam.bai",
         f"{OUTPUT_DIR}/pairs_from_bam/",
         f"{OUTPUT_DIR}/pod5_splitduplex/",
         f"{OUTPUT_DIR}/split_duplex_pair_ids.txt",

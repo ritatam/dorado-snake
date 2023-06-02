@@ -1,5 +1,17 @@
+# input directory containing all pod5 files
 pod5: "/path/pod5_dir"
+
+# output directory (will be created if it doesn't exist)
 output_dir: "/path/output_dir"
+
+
+
+
+# path to dorado binary file
 dorado: "/path/bin/dorado"
+
+# path to dorado simplex basecalling model
 model: "/path/dna_r10.4.1_e8.2_260bps_sup@v4.1.0"
+
+# path to duplex_tools virtual env activate script
 duplex_tools_env: "/path/duplex_tools/venv/bin/activate"

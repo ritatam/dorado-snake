@@ -4,6 +4,7 @@ __default__:
     time: "24:00:00"
     ncpus: 8
     ngpus: 0
+    storage: scratch/xf3+gdata/xf3
     project: xf3
     name: "{rule}" 
 
