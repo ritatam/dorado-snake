@@ -1,6 +1,6 @@
 # dorado-snake-nci
 
-**Deprecated - dorado v0.3.0 has integrated duplex pairing and read splitting. Archived.**
+**\*Deprecated - dorado v0.3.0 has integrated duplex pairing and read splitting. Archived.\***
 
 snakemake pipeline for duplex basecalling with dorado on **NCI**
 
