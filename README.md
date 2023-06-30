@@ -1,12 +1,14 @@
 # dorado-snake-nci
 snakemake pipeline for duplex basecalling with dorado on **NCI**
 
+### Deprecated - dorado v0.3.0 has integrated duplex pairing and read splitting. Archived.
+
 ![DAG](https://github.com/ritatam/dorado-snake-nci/blob/main/dag.svg)
 
 This pipeline automates the jobs detailed in nanoporetech's duplex_tools [repo](https://github.com/nanoporetech/duplex-tools#usage-with-dorado-recommended). It also incorporates the `split_on_adapter` tool at the end of the pipeline to split chimeric reads on detected adapters (yet false positives could be a problem which can be hard to assess without having the true adapter sequence).
 
 Setup:
-- install [dorado](https://github.com/nanoporetech/dorado) and [duplex_tools](https://github.com/nanoporetech/duplex-tools) as instructed. (note: the newest dorado v0.3.0 hasn't been tested in this pipeline)
+- install [dorado](https://github.com/nanoporetech/dorado) and [duplex_tools](https://github.com/nanoporetech/duplex-tools) as instructed.
 - (important) download dorado models for simplex and duplex basecalling. Examples:
 	- `dorado download --model dna_r10.4.1_e8.2_260bps_sup@v4.1.0`
 	- `dorado download --model dna_r10.4.1_e8.2_4khz_stereo@v1.1`
